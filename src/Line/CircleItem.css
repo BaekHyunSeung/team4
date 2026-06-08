@@ -1,0 +1,24 @@
+.circle{
+    width: 60px;
+    height: 60px;
+    border: 3px solid black;
+    border-radius: 50%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-size: 30px;
+    font-weight: bold;
+
+    position: absolute;
+}
+
+.circle.selected{
+    background-color: red;
+}
+
+.circle.selected{
+    background-color: red;
+    color: white;
+}

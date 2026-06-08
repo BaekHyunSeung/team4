@@ -1,0 +1,49 @@
+.headerWrap {
+    width: 820px;
+    margin: 10px auto 10px auto; /* margin 확 줄임 */
+    position: relative;
+    height: 55px;
+}
+
+.leftHeader {
+    width: 380px;
+    height: 50px;
+    background-color: #a8c63f;
+    border-top-left-radius: 10px;
+    border-bottom-right-radius: 50px 50px; /* 가로 세로 각각 조정 가능 */
+    border-top-right-radius: 30px;    position: absolute;
+    left: 0;  /* 왼쪽에 딱 붙이기 */
+    top: 0;
+    padding-left: 12px;
+    text-align: left;
+    padding-top: 5px;
+    box-sizing: border-box;
+    z-index: 2;
+}
+
+.leftText {
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 19px;
+}
+
+.line {
+    height: 5px;
+    background-color: #a8c63f;
+    position: absolute;
+    left: 370px;
+    right: 0;
+    top: 45px;
+    border-radius: 20px;
+    z-index: 1;
+}
+
+.rightText {
+    position: absolute;
+    right: 5px;
+    top: 12px;
+    font-size: 13px;
+    font-weight: bold;
+    color: #333;
+}

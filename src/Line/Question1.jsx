@@ -20,7 +20,7 @@ function Question1() {
 
     const handleClick = (value) => {
 
-        // 이미 선택한 것은 다시 선택 못하게
+       
         if (userAnswer.includes(value)) {
             return;
         }

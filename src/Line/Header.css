@@ -1,6 +1,6 @@
 .headerWrap {
     width: 820px;
-    margin: 10px auto 10px auto; /* margin 확 줄임 */
+    margin: 10px auto 10px auto; 
     position: relative;
     height: 55px;
 }
@@ -10,9 +10,9 @@
     height: 50px;
     background-color: #a8c63f;
     border-top-left-radius: 10px;
-    border-bottom-right-radius: 50px 50px; /* 가로 세로 각각 조정 가능 */
+    border-bottom-right-radius: 50px 50px; 
     border-top-right-radius: 30px;    position: absolute;
-    left: 0;  /* 왼쪽에 딱 붙이기 */
+    left: 0;  
     top: 0;
     padding-left: 12px;
     text-align: left;

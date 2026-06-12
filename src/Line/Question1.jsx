@@ -19,8 +19,6 @@ function Question1() {
     ];
 
     const handleClick = (value) => {
-
-       
         if (userAnswer.includes(value)) {
             return;
         }

@@ -2,7 +2,7 @@
   max-width: 900px;
   margin: 0 auto;
   border: 1px solid #444444;
-  padding: 20px;
+  padding: 16px;
   background-color: #ffffff;
 }
 
@@ -14,13 +14,12 @@
 }
 
 .page-title {
-  font-size: 1.8rem;
-  line-height: 1.5;
+  font-size: 1.5rem;
 }
 
 .top-controls {
   display: flex;
-  gap: 10px;
+  gap: 8px;
 }
 
 .timer-box,
@@ -29,7 +28,7 @@
   border: 1px solid #444444;
   background-color: #ffffff;
   font-size: 1rem;
-  padding: 10px 16px;
+  padding: 8px 12px;
 }
 
 .top-button,
@@ -45,11 +44,11 @@
 }
 
 .board-box {
-  margin-bottom: 24px;
+  margin-bottom: 20px;
 }
 
 .board-title {
-  font-size: 1.1rem;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 
@@ -60,7 +59,7 @@
 }
 
 .cell {
-  min-height: 100px;
+  min-height: 90px;
   border-right: 1px solid #555555;
   border-bottom: 1px solid #555555;
   display: flex;
@@ -95,42 +94,11 @@
 }
 
 .shape-text {
-  font-size: 3rem;
+  font-size: 2.5rem;
 }
 
 .check-button {
   display: block;
-  width: 240px;
+  width: 200px;
   margin: 0 auto;
-}
-
-@media (max-width: 720px) {
-  .color-problem {
-    padding: 16px;
-  }
-
-  .title-row {
-    flex-wrap: wrap;
-  }
-
-  .top-controls {
-    width: 100%;
-    justify-content: flex-start;
-  }
-
-  .page-title {
-    font-size: 1.4rem;
-  }
-
-  .cell {
-    min-height: 80px;
-  }
-
-  .shape-text {
-    font-size: 2.2rem;
-  }
-
-  .check-button {
-    width: 100%;
-  }
 }
